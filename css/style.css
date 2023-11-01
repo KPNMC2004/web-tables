@@ -1,0 +1,25 @@
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 80%;
+
+}
+
+td, th {
+    border: 5px solid black;
+    width: 5em;
+    height: 1.75em;
+}
+
+.sleep {
+    background-color: gray;
+}
+
+.class {
+    
+}
+
+.homework {
+
+}
