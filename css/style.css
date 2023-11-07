@@ -97,7 +97,3 @@ caption::after {
     color: white;
     font-weight: bolder;
 }
-
-table tbody > tr:hover {
-    background-color: white;
-}
