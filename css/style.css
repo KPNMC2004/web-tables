@@ -1,25 +1,103 @@
+/* global variables */
+:root {
+    --primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background col */
+    --primary-col: rgb(59, 147, 240);
+    --secondary-col: rgb(0, 57, 119);
+    --trinary-col: rgb(32, 73, 117);
+    /* text col */
+    --primary-text-col: rgb(228, 228, 228);
+    --primary-text-col-dark: #222222;
+}
+
+
+body {
+    width: 66%;
+    margin: auto;
+    font-family: var(--primary-font);
+    color: var(--primary-text-col);
+}
+
+
+/* table styling */
 table {
     margin: 10px auto;
     border-collapse: collapse;
-    border: 1px solid black;
     width: 80%;
+    background-color: var(--primary-col);
+}
 
+thead {
+    background-color: var(--secondary-col);
 }
 
 td, th {
-    border: 5px solid black;
+    border: 2px solid black;
     width: 5em;
     height: 1.75em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tbody > tr th {
+    background-color: var(--trinary-col);
+}
+
+    /* table caption */
+caption {
+    color: black;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: left;
+}
+
+caption::after {
+    display: block;
+    content: "(At least my optimal schedule)";
+    font-size: 0.35em;
+    font-style: italic;
+}
+
+/* styling by scheduled categories */
+.class {
+    background-color: rgb(151, 27, 27);
+    color: white;
+}
+
+.daily-routine {
+    background-color: rgb(61, 43, 86);
+}
+
+.dinner {
+    background-color: rgb(113, 82, 39);
+}
+
+.shower {
+    background-color: rgb(8, 100, 154);
+}
+
+.study-time {
+    background-color: rgb(107, 95, 10);
+}
+
+.workout {
+    background-color: rgb(32, 96, 19);
+}
+
+.freetime-or-catchup {
+    background-color: rgb(3, 79, 79);
+}
+
+.wind-down {
+    background-color: rgb(85, 85, 85);
 }
 
 .sleep {
-    background-color: gray;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-weight: bolder;
 }
 
-.class {
-    
-}
-
-.homework {
-
+table tbody > tr:hover {
+    background-color: white;
 }

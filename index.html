@@ -8,268 +8,128 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <table>
+    <table class="schedule">
+        <caption>My schedule</caption>
         <thead>
-            <tr>
-                <th colspan="8">My Schedule</th>
-            </tr>
             <tr>
                 <th rowspan="2">Time</th>
                 <th colspan="7">Day of the Week</th>
             </tr>
             <tr>
-                <th>Mon</th>
-                <th>Tue</th>
-                <th>Wed</th>
-                <th>Thu</th>
-                <th>Fri</th>
-                <th>Sat</th>
-                <th>Sun</th>
+                <th class="mon">Mon</th>
+                <th class="tue">Tue</th>
+                <th class="wed">Wed</th>
+                <th class="thu">Thu</th>
+                <th class="fri">Fri</th>
+                <th class="sat">Sat</th>
+                <th class="sun">Sun</th>
             </tr>
         </thead>
     
         <tbody>
             <tr>
-                <th>0000</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>0100</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>0200</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>0300</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>0400</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>0500</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
                 <th>0600</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="sleep" rowspan="6">Sleep</td>
+                <td class="sleep" rowspan="2">Sleep</td>
+                <td class="sleep" rowspan="4" colspan="2">Sleep</td>
+                <td class="sleep" rowspan="7">Sleep</td>
+                <td class="sleep" rowspan="6" colspan="2">Sleep</td>
             </tr>
+            
             <tr>
                 <th>0700</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>0800</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="daily-routine" rowspan="2">Daily Routine</td>
             </tr>
             <tr>
                 <th>0900</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>1000</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="class" rowspan="4">AC227 <br> HE150</td>
+                <td class="daily-routine" rowspan="2" colspan="2">Daily Routine</td>
             </tr>
             <tr>
                 <th>1100</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>1200</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="daily-routine" rowspan="2">Daily Routine</td>
+                <td class="study-time" rowspan="5">Study Time</td>
+                <td class="class" rowspan="4">HE150 <br> CS140</td>
+                <td class="daily-routine" colspan="2" rowspan="2">Daily Routine</td>
             </tr>
             <tr>
                 <th>1300</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="daily-routine" rowspan="2">Daily Routine</td>
             </tr>
             <tr>
                 <th>1400</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="class" rowspan="2">EC211</td>
+                <td class="study-time" rowspan="5">Study Time</td>
+                <td class="freetime-or-catchup" rowspan="5" colspan="2">Freetime/ <br> Catchup</td>
             </tr>
             <tr>
                 <th>1500</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="class" rowspan="2">CS222</td>
+
             </tr>
             <tr>
                 <th>1600</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="study-time">Study Time</td>
+                <td class="study-time" rowspan="3">Study Time</td>
             </tr>
             <tr>
                 <th>1700</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="workout" rowspan="2">Workout</td>
+                <td class="workout" rowspan="2">Workout</td>
+                <td class="workout" rowspan="2">Workout</td>
             </tr>
             <tr>
                 <th>1800</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>1900</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="dinner" colspan="7">Dinner</td>
             </tr>
             <tr>
                 <th>2000</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="study-time" colspan="5" rowspan="3">Study Time</td>
+                <td class="freetime-or-catchup" rowspan="3" colspan="2">Freetime/ <br> Catchup</td>
             </tr>
             <tr>
                 <th>2100</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>2200</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <th>2300</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+                <td class="wind-down" colspan="7">Wind Down</td>
 
+            </tr>
+            <tr>
+                <th>0000</th>
+                <td class="sleep" rowspan="6" colspan="7">Sleep</td>
+
+            </tr>
+            <tr>
+                <th>0100</th>
+            </tr>
+            <tr>
+                <th>0200</th>
+            </tr>
+            <tr>
+                <th>0300</th>
+            </tr>
+            <tr>
+                <th>0400</th>
+            </tr>
+            <tr>
+                <th>0500</th>
+            </tr>
         </tbody>
     </table>
 </body>
